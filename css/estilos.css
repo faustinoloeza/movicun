@@ -1,0 +1,434 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+body
+{
+	background:url("../img/fondo.png") repeat-x;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	min-width: 270px;
+}
+input
+{
+	border-radius: 10px;
+	border: 1px solid gray;
+	height: 25px;
+}
+footer
+{
+	color: black;
+	height: 75px;
+	background: url(../img/pie.jpg)repeat-x;
+	width: 100%;
+	max-width:960px;
+	margin:0 auto;
+}
+h3
+{
+	font-size: 3em;
+	font-weight: bold;
+	margin: 60px 0 10px 0;
+	padding: 0;
+}
+h4
+{
+	color: black;
+	font-size: 2em;
+	margin: 0;
+}
+h5
+{
+	padding: 20px;
+}
+#contacto ul li
+{
+	list-style-type: none;
+	padding: 10px;
+	margin: 0 auto;
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+nav ul
+{
+	margin: 0;
+	padding:0;
+	color: black;
+}
+nav ul li
+{
+	background: #e9e6e1;
+	list-style-type: none;
+	padding: 10px 0;
+	height: 20px;
+	border-bottom: 1px solid black;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+textarea
+{
+	width: 100%;
+	max-width: 400px;
+	height: 300px;
+	background: rgba(169, 169, 169,.3);
+	padding-left: 10px;
+}
+#barrasuperior
+{
+	height: 75px;
+	background: #1191b5;
+	position: relative;
+	width: 100%;
+}
+.banderas
+{
+	margin: 0 15px;
+	border: 1px solid black;
+	height: 25px;
+}
+
+#comousar1
+{
+	width: 100%;
+	max-width: 800px;
+	padding:0;
+	margin:50px auto 0 auto;
+}
+.comousar2
+{
+	width: 100%;
+	max-width: 320px;
+	padding: 0 1em;
+	margin-top: 50px;
+}
+
+#dondeA
+{
+	width:90%;
+	max-width: 800px;
+	background-size:800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+#dondeA p
+{
+	color: #434343;
+	text-align: left;
+	font-size: 1.2em;
+	background: url(../img/vineta.png)no-repeat;
+	padding-left: 20px;
+	max-width:500px;
+	margin:40px  auto;
+}
+iframe 
+{
+	border: 10px solid #f25920;
+	width: 90%;
+	max-width: 600px;
+}
+.DAM
+{
+	margin-top: 60px;
+	width: 100%;
+	max-width: 480px;
+}
+.DA
+{
+	width: 100%;
+	max-width: 800px;
+	margin-top: 50px;
+}
+#social1 
+{
+	position: absolute;
+	width: 250px;
+	margin: 37px 15% ;
+	top: 0;
+	left: 0;
+}
+#social1 img
+{
+	width: 100%;
+	margin: 0;
+}
+#social1 .youtube
+{
+	width: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 20px 0 0px 70px;
+}
+#social1 .facebook
+{
+	width: 50px;
+	position: absolute;
+	top: 0;
+	right:0;
+	margin: 20px 70px 20px 0px;
+}
+#social2
+{
+	display: none;
+}
+#menu
+{
+	position: absolute;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 60px;
+	top: 0;
+	right: 0;
+	transition:.5s all;
+	-webkit-transition:.5s all;
+	width: 65px;
+	z-index: 9000;
+}
+#movil
+{
+	width:53px;
+	height: 60px;
+	margin: 0;
+	padding: 0 auto;
+}
+#menu:hover
+{
+	height: 355px;
+	width: 200px;
+}
+#logo img
+{
+	width: 90%;
+	max-width: 300px;
+	margin-top: 20px;
+}
+#logo h2
+{
+	margin: 0;
+	padding: 0;
+}
+#precios img
+{
+	max-width: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#beneficios
+{
+	background: url(../img/monedas.png)no-repeat;
+	background-position: center ;
+	background-size: 200px 350px;
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+#contacto
+{
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+#contacto input
+{
+	background: rgba(204,204,204,.3);
+	box-shadow: 0px 1px 10px black inset;
+	border-radius: 5px;
+	width: 100%;
+	padding-left: 10px;
+	max-width: 400px;
+	height: 33px;
+}
+.oculta
+{
+	display: none;	
+}
+.beneficios
+{
+	color: #434343;
+	font-size: 1.2em;
+	max-width: 600px;
+	margin: 10px auto 60px 150px;
+	text-align: left;
+	width: 100%;
+}
+#info
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+#info img
+{
+	width: 100%;
+	max-width: 320px;
+	display: inline-block;
+}
+.roundabout-holder 
+{
+	width: 95%;
+	max-width: 550px;
+	height:200px;
+	margin:60px auto;
+	margin-top: 0;
+ }
+.roundabout-moveable-item 
+{
+	list-style-type:none;
+ 	width: 55%;
+ 	height: 200px;
+	cursor: pointer;
+	
+ }
+.roundabout-moveable-item img
+{
+	width:100%;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+ .roundabout-in-focus .rota
+ {
+      display: block;
+ }
+
+ @media screen and (max-width: 768px)
+ {
+ 	.roundabout-holder 
+ 	{
+ 		overflow: hidden;
+ 		height: 240px;
+ 		width: 95%;
+ 		margin-bottom: 0;
+ 	}
+ 	#logo
+ 	{
+ 		margin-top: 40px;
+ 	}
+ 	.beneficios
+	{
+		margin: 10px auto 60px auto;
+	}
+	#comousar1
+	{
+		display: none;
+	}
+	.DA
+	{
+		display: none;
+	}
+ }
+ @media screen and (min-width: 768px)
+ {
+ 	h3
+ 	{
+ 		margin-top: .5em;
+ 		font-size: 4.5em;
+ 	}
+ 	h4
+ 	{
+ 		font-size: 2.5em;
+ 	}
+ 	#movil
+ 	{
+ 		display: none;
+ 	}
+ 	#menu
+ 	{
+ 		width: 100%;
+ 		max-width: 800px;
+ 		height: 90px;
+ 		margin: 0 auto;
+ 		position: relative;
+ 	}
+ 	#menu:hover
+ 	{
+ 		width: 100%;
+ 		max-width: 800px;
+ 		height: 90px;
+ 	}
+
+ 	nav ul li 
+ 	{
+ 		display: inline-block;
+ 		vertical-align: top;
+ 		margin-right: 10px;
+ 		background: none;
+ 		border: 0;
+ 	}
+	nav ul li a
+	{
+		color:white;
+	}
+ 	#barrasuperior
+	{
+		height: 50px;
+		background: url(../img/menu.png) no-repeat;
+		background-size: 870px 50px;
+		background-position: center;
+	}
+	#beneficios
+	{
+		background-size: 20%;
+		background-position: 95% 90%;
+	}
+	#social1
+	{
+		display: none;
+	}
+	#social2
+	{
+		position: absolute;
+		width: 150px;
+		margin: 27px 0 0 0;
+		top: 0;
+		left: 0;
+		display: block;
+	}
+	#social2 .youtube
+	{
+		width: 28px;position: absolute;top: 0;left: 0;margin: 13px 0 0px 40px;
+	}
+	#social2 .facebook
+	{
+		width: 28px;position: absolute;top: 0;right:0;margin: 13px 40px 20px 0px;
+	}
+	#social2 img
+	{
+		width: 100%;
+	}
+	.roundabout-moveable-item 
+	{
+		height: 300px;
+		width: 328px;
+	 }
+	 #logo h2
+	 {
+	 	margin-bottom: 70px;
+	 }
+	 #info img
+	{
+		max-width: 250px;
+	}
+	.comousar2
+	{
+		display: none;
+	}
+	.DAM
+	{
+		display: none;
+	}
+ }
